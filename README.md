@@ -5,6 +5,7 @@ Service that works!
 
 Simply import the Service in your Sails JS project and use the method as shown below - 
 
+```
   pleaseValidate:function(req,res){
       "use strict";
       let validate = new ValidatorService();
@@ -19,3 +20,4 @@ Simply import the Service in your Sails JS project and use the method as shown b
         }
       });
    }
+```
